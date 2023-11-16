@@ -1,0 +1,21 @@
+2023-11-16 19:47:58.837 [info] Extension host with pid 4002 started
+2023-11-16 19:47:58.901 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-11-16 19:47:58.913 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/1c948e6ed2ac05fd91dfeb3e4b5c1b68/vscode.lock': Lock acquired.
+2023-11-16 19:47:59.011 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-16 19:47:59.055 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 19:47:59.066 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 19:47:59.066 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-16 19:47:59.066 [info] Eager extensions activated
+2023-11-16 19:48:00.041 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-11-16 19:54:52.040 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-11-16 19:55:12.806 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-11-16 19:55:12.806 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-11-16 19:55:14.559 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-11-16 19:55:14.831 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-11-16 19:55:14.832 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-11-16 20:45:43.058 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-11-16 20:45:44.878 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-11-16 20:46:10.246 [error] {"message":"Failed to execute git","stdout":"","stderr":"","exitCode":1,"gitErrorCode":"NoUserNameConfigured","gitCommand":"config","gitArgs":["config","--get-all","user.name"]}
+2023-11-16 20:48:09.600 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-11-16 20:57:40.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-11-16 20:57:43.827 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

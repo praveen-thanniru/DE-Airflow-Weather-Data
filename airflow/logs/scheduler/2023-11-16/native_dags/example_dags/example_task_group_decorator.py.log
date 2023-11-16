@@ -1,0 +1,18 @@
+[2023-11-16T19:51:36.284+0000] {processor.py:157} INFO - Started process (PID=4099) to work on /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-11-16T19:51:36.285+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-11-16T19:51:36.286+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:36.286+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-11-16T19:51:36.307+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-11-16T19:51:36.420+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:36.420+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:51:36.433+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:36.432+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:51:36.442+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:36.442+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:51:36.442+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:36.442+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-16T19:51:36.453+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:36.453+0000] {dag.py:2963} INFO - Creating ORM DAG for example_task_group_decorator
+[2023-11-16T19:51:36.462+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:36.462+0000] {dag.py:3722} INFO - Setting next_dagrun for example_task_group_decorator to 2023-11-15T19:51:36.462406+00:00, run_after=2023-11-16T19:51:36.462406+00:00
+[2023-11-16T19:51:36.486+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.205 seconds
+[2023-11-16T19:52:26.476+0000] {processor.py:157} INFO - Started process (PID=4148) to work on /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-11-16T19:52:26.477+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-11-16T19:52:26.478+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:26.477+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-11-16T19:52:26.495+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-11-16T19:52:26.516+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:26.516+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-16T19:52:26.537+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:26.537+0000] {dag.py:3722} INFO - Setting next_dagrun for example_task_group_decorator to 2023-11-15T19:52:26.537312+00:00, run_after=2023-11-16T19:52:26.537312+00:00
+[2023-11-16T19:52:26.559+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.086 seconds

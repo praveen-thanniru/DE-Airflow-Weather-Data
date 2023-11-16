@@ -1,0 +1,197 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:41077 (IPv4)
+Extension host agent listening on 41077
+
+[19:47:39] Extension host agent started.
+[19:47:39] [127.0.0.1][f5dc5f19][ManagementConnection] New connection established.
+[19:47:39] [127.0.0.1][e59c1d38][ExtensionHostConnection] New connection established.
+[19:47:39] [127.0.0.1][e59c1d38][ExtensionHostConnection] <3866> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[19:47:56] [127.0.0.1][f5dc5f19][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:47:56] [127.0.0.1][e59c1d38][ExtensionHostConnection] <3866> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[19:47:56] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[19:47:58] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[19:47:58] Cancelling previous shutdown timeout
+[19:47:58] [127.0.0.1][91efd2de][ManagementConnection] New connection established.
+[19:47:58] [127.0.0.1][6b4b76e8][ExtensionHostConnection] New connection established.
+[19:47:58] [127.0.0.1][6b4b76e8][ExtensionHostConnection] <4002> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+New EH opened, aborting shutdown
+[19:52:58] New EH opened, aborting shutdown
+[19:54:58] Getting Manifest... ms-python.python
+[19:54:58] Installing extension: ms-python.python
+[19:54:59] Getting Manifest... ms-python.vscode-pylance
+[19:55:00] Getting Manifest... ms-toolsai.jupyter
+[19:55:00] Getting Manifest... ms-toolsai.jupyter-keymap
+[19:55:00] Getting Manifest... ms-toolsai.jupyter-renderers
+[19:55:00] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+[19:55:00] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+[19:55:00] Getting Manifest... ms-python.isort
+[19:55:00] Installing extension: ms-python.vscode-pylance ms-python.python
+[19:55:00] Installing extension: ms-toolsai.jupyter ms-python.python
+[19:55:00] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+[19:55:00] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+[19:55:00] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+[19:55:00] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+[19:55:00] Installing extension: ms-python.isort ms-python.python
+[19:55:01] Extracted extension to /home/ubuntu/.vscode-server/extensions/.1d479d54-f5ca-45df-9e2b-b0cc019ad78b: ms-toolsai.jupyter-keymap
+[19:55:01] Renamed to /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.0
+[19:55:01] Extracting completed. ms-toolsai.jupyter-keymap
+[19:55:01] Extracted extension to /home/ubuntu/.vscode-server/extensions/.68513f1b-d832-4748-84b2-eb398fad5768: ms-toolsai.vscode-jupyter-slideshow
+[19:55:01] Renamed to /home/ubuntu/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+[19:55:01] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+[19:55:01] Extracted extension to /home/ubuntu/.vscode-server/extensions/.01cc2c5a-7e82-4a25-80e3-3ee9a4fc22b7: ms-toolsai.vscode-jupyter-cell-tags
+[19:55:01] Renamed to /home/ubuntu/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+[19:55:01] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+[19:55:02] Extracted extension to /home/ubuntu/.vscode-server/extensions/.43afac50-ea83-435a-abec-5e802b4cfe09: ms-toolsai.jupyter-renderers
+[19:55:02] Renamed to /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.14
+[19:55:02] Extracting completed. ms-toolsai.jupyter-renderers
+[19:55:03] Extracted extension to /home/ubuntu/.vscode-server/extensions/.24ac36a4-57c8-45f6-8c63-9e16d93357a6: ms-toolsai.jupyter
+[19:55:03] Renamed to /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1303220346
+[19:55:03] Extracting completed. ms-toolsai.jupyter
+[19:55:05] Extracted extension to /home/ubuntu/.vscode-server/extensions/.0f8a357e-8d3e-45d4-9673-61a677800d91: ms-python.python
+[19:55:05] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.18.2
+[19:55:05] Extracting completed. ms-python.python
+[19:55:06] Extracted extension to /home/ubuntu/.vscode-server/extensions/.71516934-ffc9-4d7a-88f8-95b9d5018caa: ms-python.isort
+[19:55:06] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.isort-2022.8.0
+[19:55:06] Extracting completed. ms-python.isort
+[19:55:12] Extracted extension to /home/ubuntu/.vscode-server/extensions/.9b75e11d-ba67-4b59-a8d3-07635073864b: ms-python.vscode-pylance
+[19:55:12] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.1.10
+[19:55:12] Extracting completed. ms-python.vscode-pylance
+[19:55:12] Extension installed successfully: ms-toolsai.jupyter-keymap
+[19:55:12] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+[19:55:12] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+[19:55:12] Extension installed successfully: ms-toolsai.jupyter-renderers
+[19:55:12] Extension installed successfully: ms-toolsai.jupyter
+[19:55:12] Extension installed successfully: ms-python.python
+[19:55:12] Extension installed successfully: ms-python.isort
+[19:55:12] Extension installed successfully: ms-python.vscode-pylance
+[20:59:25] [127.0.0.1][91efd2de][ManagementConnection] The client has reconnected.
+[20:59:58] [127.0.0.1][6b4b76e8][ExtensionHostConnection] The client has reconnected.

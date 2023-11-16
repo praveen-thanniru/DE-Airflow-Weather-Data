@@ -1,0 +1,10 @@
+[2023-11-16T19:51:26.444+0000] {processor.py:157} INFO - Started process (PID=4089) to work on /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-16T19:51:26.445+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-11-16T19:51:26.445+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:26.445+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-16T19:51:26.748+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-16T19:51:26.758+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.318 seconds
+[2023-11-16T19:52:17.259+0000] {processor.py:157} INFO - Started process (PID=4138) to work on /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-16T19:52:17.260+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-11-16T19:52:17.261+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:17.261+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-16T19:52:17.554+0000] {processor.py:841} WARNING - No viable dags retrieved from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-16T19:52:17.565+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.309 seconds

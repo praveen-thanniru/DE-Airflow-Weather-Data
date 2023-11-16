@@ -1,0 +1,17 @@
+[Info  - 7:55:15 PM] (4203) Pylance language server 2023.1.10 (pyright bbf0ae78) starting
+[Info  - 7:55:15 PM] (4203) Server root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.1.10/dist
+[Info  - 7:55:15 PM] (4203) Starting service instance "ubuntu"
+[Info  - 7:55:15 PM] (4203) Notebook support: LSP
+[Info  - 7:55:15 PM] (4203) Interactive window support: LSP
+[Info  - 7:55:16 PM] (4203) No configuration file found.
+[Info  - 7:55:16 PM] (4203) No pyproject.toml file found.
+[Info  - 7:55:16 PM] (4203) Setting pythonPath for service "ubuntu": "/home/ubuntu/airflow_slack_venv/bin/python"
+[Warn  - 7:55:16 PM] (4203) stubPath /home/ubuntu/typings is not a valid directory.
+[Info  - 7:55:16 PM] (4203) Assuming Python version 3.10
+[Info  - 7:55:16 PM] (4203) Assuming Python platform Linux
+[Info  - 7:55:16 PM] (4203) Searching for source files
+[Info  - 7:55:16 PM] (4203) Auto-excluding /home/ubuntu/airflow_slack_venv
+[Info  - 7:55:16 PM] (4203) Found 2 source files
+[Info  - 7:55:16 PM] (4203) Background analysis(1) root directory: /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2023.1.10/dist
+[Info  - 7:55:16 PM] (4203) Background analysis(1) started
+[Info  - 7:55:20 PM] (4203) [BG(1)] Long operation: getSemanticTokens full at /home/ubuntu/airflow/dags/etl.py (4121ms)

@@ -1,0 +1,184 @@
+2023-11-16 19:48:00.362 [info] Validating found git in: git
+2023-11-16 19:48:00.362 [info] Using git 2.34.1 from git
+2023-11-16 19:48:00.362 [info] > git rev-parse --show-toplevel [15ms]
+2023-11-16 19:48:00.362 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:48:00.362 [info] > git rev-parse --show-toplevel [15ms]
+2023-11-16 19:48:00.362 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:48:00.362 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-16 19:48:00.362 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:48:00.362 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-16 19:48:00.362 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:48:00.362 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-16 19:48:00.362 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:48:24.925 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-16 19:48:24.925 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:52:14.814 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-16 19:52:14.814 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:53:37.001 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-16 19:53:37.001 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:55:12.721 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-16 19:55:12.721 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:55:12.761 [info] > git rev-parse --show-toplevel [17ms]
+2023-11-16 19:55:12.762 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:55:12.786 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-16 19:55:12.786 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 19:55:18.177 [info] > git rev-parse --show-toplevel [8ms]
+2023-11-16 19:55:18.177 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-16 20:45:29.006 [info] > git init [17ms]
+2023-11-16 20:45:29.006 [info] hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+2023-11-16 20:45:29.017 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-16 20:45:29.028 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-11-16 20:45:29.044 [info] Log level: Info
+2023-11-16 20:45:29.044 [info] Open repository: /home/ubuntu
+2023-11-16 20:45:29.100 [info] > git remote --verbose [39ms]
+2023-11-16 20:45:29.101 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [48ms]
+2023-11-16 20:45:29.102 [info] > git config --get commit.template [2ms]
+2023-11-16 20:45:29.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-11-16 20:45:29.320 [info] > git status -z -uall [250ms] (cancelled)
+2023-11-16 20:45:29.421 [info] > git show --textconv :airflow/dags/etl.py [13ms]
+2023-11-16 20:45:29.425 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [4ms]
+2023-11-16 20:45:29.701 [info] > git check-ignore -v -z --stdin [3ms]
+2023-11-16 20:45:44.683 [info] > git remote --verbose [1480ms]
+2023-11-16 20:45:44.687 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1508ms]
+2023-11-16 20:45:44.787 [info] > git config --get commit.template [187ms]
+2023-11-16 20:45:44.809 [info] > git status -z -uall [1608ms] (cancelled)
+2023-11-16 20:45:44.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-11-16 20:45:47.499 [info] > git check-ignore -v -z --stdin [4ms]
+2023-11-16 20:46:07.870 [info] > git add -A -- . [38787ms]
+2023-11-16 20:46:09.228 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [1341ms]
+2023-11-16 20:46:09.228 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-11-16 20:46:09.243 [info] > git config --get-all user.name [2ms]
+2023-11-16 20:47:31.343 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [12ms]
+2023-11-16 20:47:31.355 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [1ms]
+2023-11-16 20:47:31.399 [info] > git show --textconv :airflow/dags/etl.py [11ms]
+2023-11-16 20:47:33.630 [info] > git check-ignore -v -z --stdin [64ms]
+2023-11-16 20:48:09.219 [info] > git remote add origin https://github.com/praveen-thanniru/DE-Airflow-Weather-Data.git [4ms]
+2023-11-16 20:48:09.260 [info] > git remote --verbose [20ms]
+2023-11-16 20:48:09.260 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [31ms]
+2023-11-16 20:48:09.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-11-16 20:48:09.284 [info] > git config --get commit.template [27ms]
+2023-11-16 20:48:10.907 [info] > git status -z -uall [1661ms] (cancelled)
+2023-11-16 20:48:10.908 [info] > git push -u origin master [1239ms]
+2023-11-16 20:48:10.908 [info] error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/praveen-thanniru/DE-Airflow-Weather-Data.git'
+2023-11-16 20:48:12.981 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [10ms]
+2023-11-16 20:48:12.997 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [2ms]
+2023-11-16 20:48:13.039 [info] > git show --textconv :airflow/dags/etl.py [11ms]
+2023-11-16 20:48:34.642 [info] > git -c user.useConfigOnly=true commit --quiet [128ms]
+2023-11-16 20:48:34.643 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-11-16 20:48:34.658 [info] > git config --get-all user.name [1ms]
+2023-11-16 20:53:14.891 [info] > git check-ignore -v -z --stdin [44ms]
+2023-11-16 20:53:23.577 [info] > git check-ignore -v -z --stdin [1976ms]
+2023-11-16 20:53:24.983 [info] > git check-ignore -v -z --stdin [1027ms]
+2023-11-16 20:53:27.855 [info] > git check-ignore -v -z --stdin [925ms]
+2023-11-16 20:54:35.691 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [10ms]
+2023-11-16 20:54:35.702 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [1ms]
+2023-11-16 20:54:35.749 [info] > git show --textconv :airflow/dags/etl.py [12ms]
+2023-11-16 20:56:45.227 [info] > git check-ignore -v -z --stdin [79ms]
+2023-11-16 20:56:53.150 [info] > git check-ignore -v -z --stdin [48ms]
+2023-11-16 20:56:59.239 [info] > git check-ignore -v -z --stdin [236ms]
+2023-11-16 20:57:02.719 [info] > git -c user.useConfigOnly=true commit --quiet [126ms]
+2023-11-16 20:57:02.719 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-11-16 20:57:02.731 [info] > git config --get-all user.name [1ms]
+2023-11-16 20:57:04.063 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [11ms]
+2023-11-16 20:57:04.075 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [2ms]
+2023-11-16 20:57:04.124 [info] > git show --textconv :airflow/dags/etl.py [13ms]
+2023-11-16 20:57:07.892 [info] > git -c user.useConfigOnly=true commit --quiet [110ms]
+2023-11-16 20:57:07.892 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-11-16 20:57:07.903 [info] > git config --get-all user.name [2ms]
+2023-11-16 20:57:09.263 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [11ms]
+2023-11-16 20:57:09.273 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [1ms]
+2023-11-16 20:57:09.320 [info] > git show --textconv :airflow/dags/etl.py [11ms]
+2023-11-16 20:57:39.884 [info] > git remote add projects https://github.com/praveen-thanniru/DE-Airflow-Weather-Data.git [2ms]
+2023-11-16 20:57:39.923 [info] > git remote --verbose [21ms]
+2023-11-16 20:57:39.924 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [30ms]
+2023-11-16 20:57:39.985 [info] > git config --get commit.template [62ms]
+2023-11-16 20:57:39.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-11-16 20:57:41.989 [info] > git status -z -uall [2079ms] (cancelled)
+2023-11-16 20:57:42.935 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [11ms]
+2023-11-16 20:57:42.951 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [2ms]
+2023-11-16 20:57:43.021 [info] > git show --textconv :airflow/dags/etl.py [28ms]
+2023-11-16 20:57:43.174 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [11ms]
+2023-11-16 20:57:43.192 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [1ms]
+2023-11-16 20:57:43.249 [info] > git show --textconv :airflow/dags/etl.py [11ms]
+2023-11-16 20:57:43.420 [info] > git fetch projects [2980ms]
+2023-11-16 20:57:43.421 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2023-11-16 20:57:43.547 [info] > git remote --verbose [95ms]
+2023-11-16 20:57:43.548 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [112ms]
+2023-11-16 20:57:43.590 [info] > git config --get commit.template [43ms]
+2023-11-16 20:57:43.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-11-16 20:57:43.849 [info] > git status -z -uall [382ms] (cancelled)
+2023-11-16 20:57:46.133 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [12ms]
+2023-11-16 20:57:46.151 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [3ms]
+2023-11-16 20:57:46.203 [info] > git show --textconv :airflow/dags/etl.py [14ms]
+2023-11-16 20:59:08.113 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [14ms]
+2023-11-16 20:59:08.127 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [3ms]
+2023-11-16 20:59:08.171 [info] > git show --textconv :airflow/dags/etl.py [12ms]
+2023-11-16 20:59:23.574 [info] > git show --textconv :airflow/airflow.cfg [12ms]
+2023-11-16 20:59:23.585 [info] > git ls-files --stage -- /home/ubuntu/airflow/airflow.cfg [14ms]
+2023-11-16 20:59:23.600 [info] > git cat-file -s 5d85f234025526adab810c66e60df9d649a0fbe7 [3ms]
+2023-11-16 20:59:59.071 [info] > git show --textconv :airflow/dags/etl.py [24ms]
+2023-11-16 20:59:59.119 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [60ms]
+2023-11-16 20:59:59.139 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [8ms]
+2023-11-16 21:00:00.590 [info] > git check-ignore -v -z --stdin [1055ms]
+2023-11-16 21:00:21.823 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/etl.py [11ms]
+2023-11-16 21:00:21.836 [info] > git cat-file -s 90cf93cb98da5537196263e130ac2ee4c6e5c978 [2ms]
+2023-11-16 21:00:21.879 [info] > git show --textconv :airflow/dags/etl.py [12ms]

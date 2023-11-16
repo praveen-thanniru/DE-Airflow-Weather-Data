@@ -1,0 +1,18 @@
+[2023-11-16T19:51:46.634+0000] {processor.py:157} INFO - Started process (PID=4108) to work on /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-16T19:51:46.635+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-16T19:51:46.636+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:46.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-16T19:51:46.645+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-16T19:51:46.762+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:46.761+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:51:46.774+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:46.774+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:51:46.785+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:46.784+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:51:46.785+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:46.785+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-16T19:51:46.797+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:46.796+0000] {dag.py:2963} INFO - Creating ORM DAG for example_sla_dag
+[2023-11-16T19:51:46.809+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:51:46.809+0000] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-16T19:48:00+00:00, run_after=2023-11-16T19:50:00+00:00
+[2023-11-16T19:51:46.833+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.203 seconds
+[2023-11-16T19:52:35.616+0000] {processor.py:157} INFO - Started process (PID=4157) to work on /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-16T19:52:35.617+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-16T19:52:35.618+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:35.617+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-16T19:52:35.627+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-16T19:52:35.645+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:35.645+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-16T19:52:35.670+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:35.670+0000] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-16T19:50:00+00:00, run_after=2023-11-16T19:52:00+00:00
+[2023-11-16T19:52:35.693+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.081 seconds

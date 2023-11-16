@@ -1,0 +1,11 @@
+[2023-11-16T19:52:03.366+0000] {processor.py:157} INFO - Started process (PID=4122) to work on /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-16T19:52:03.367+0000] {processor.py:829} INFO - Processing file /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-16T19:52:03.368+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:03.368+0000] {dagbag.py:536} INFO - Filling up the DagBag from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-16T19:52:03.380+0000] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-16T19:52:03.501+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:03.500+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:52:03.514+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:03.514+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:52:03.523+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:03.523+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-16T19:52:03.523+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:03.523+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-16T19:52:03.536+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:03.536+0000] {dag.py:2963} INFO - Creating ORM DAG for example_complex
+[2023-11-16T19:52:03.537+0000] {logging_mixin.py:154} INFO - [2023-11-16T19:52:03.537+0000] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-16T19:52:03.564+0000] {processor.py:179} INFO - Processing /home/ubuntu/airflow_slack_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.201 seconds
